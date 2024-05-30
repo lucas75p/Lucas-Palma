@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motocross</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Estilos CSS existentes aquí */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motocross Argentino</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Tu contenido HTML existente aquí -->
+
+        <section id="inicio">
+            <h2>¿Qué es el motocross?</h2>
+            <p>El motocross es un deporte extremo que involucra carreras de motocicletas especialmente diseñadas para terrenos accidentados, como pistas de tierra con obstáculos naturales y artificiales. Los competidores deben navegar a través de saltos, baches, curvas cerradas y otros desafíos mientras intentan completar un número determinado de vueltas en el menor tiempo posible. Es una disciplina muy exigente física y técnicamente, que requiere habilidades de manejo excepcionales, así como fuerza y resistencia. El motocross se practica tanto a nivel amateur como profesional, y es popular en todo el mundo.</p>
+            <img src="motocross.jpg" alt="Motocross en acción">
+        </section>
+
+        <section id="historia">
+            <h2>Historia</h2>
+            <p>La historia del motocross se remonta a los primeros días del siglo XX en Europa, especialmente en el Reino Unido y Francia. Lo que comenzó como competiciones informales en terrenos irregulares y circuitos naturales, pronto se convirtió en un deporte organizado y en rápido crecimiento.
+
+                Con el tiempo, los pilotos desarrollaron técnicas especializadas para navegar por terrenos difíciles, mientras que las motocicletas evolucionaron con características diseñadas específicamente para el desafío del off-road. Las competiciones se hicieron más populares y se establecieron federaciones nacionales e internacionales, junto con campeonatos de renombre como el Campeonato Mundial de Motocross de la FIM.
+                
+                El motocross se expandió por todo el mundo, atrayendo a millones de fanáticos y convirtiendo a los pilotos en verdaderas celebridades. A lo largo de los años, ha experimentado numerosas innovaciones técnicas y avances en seguridad, manteniendo su lugar como uno de los deportes más emocionantes y desafiantes del mundo del motor. </p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <img src="motocross.jpg2.jfif" alt="Motocross en acción">
+            <img src="motocross.jpg3.jfif" alt="Motocross en acción">
+            <img src="motocross.jpg4.jfif" alt="Motocross en acción">
+            <img src="motocross.jpg5.jfif" alt="Motocross en acción">
+        </section>
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <p>Primera fecha del nacional 07/01 Tucuman</p>
+            <p>Segunda fecha del nacional 10/02 Salta</p>
+            <p>Tercera fechadel nacional 06/03 Chubut</p>
+            <p>MXGP Mundial de motocross 14/04 Neuquen</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información sobre el motocross, contáctanos en: solomotos@gmail.com</p>
+            <p>Tambien te podes comunicar al: 3785065103</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Motocross</p>
+    </footer>
+
+    <script>
+        // Selecciona todos los enlaces del menú y agrega un sombreado al pasar el ratón
+        var enlacesMenu = document.querySelectorAll('nav ul li a');
+        enlacesMenu.forEach(function(enlace) {
+            enlace.onmouseover = function() {
+                this.style.textShadow = '2px 2px 4px rgba(0,0,0,0.5)';
+            };
+            enlace.onmouseout = function() {
+                this.style.textShadow = ''; // Restablece el sombreado cuando el mouse sale del enlace
+            };
+        });
+
+        // Selecciona todos los elementos <h2> y agrega un sombreado
+        var titulos = document.querySelectorAll('h2');
+        titulos.forEach(function(titulo) {
+            titulo.style.textShadow = '2px 2px 4px rgba(0,0,0,0.5)';
+        });
+    </script>
+</body>
+</html>
+
+    
+
